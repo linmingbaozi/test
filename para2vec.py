@@ -3,7 +3,7 @@ from collections import namedtuple
 import string
 import numpy as np
 
-txt = ['./train_img_ann_cat.txt', 'val_img_ann_cat.txt']
+txt = ['./train_img_ann_cat.txt', 'val_img_ann_cat.txt']   # files recording your annotations' path.
 save = ['./para2vec_train.npy', './para2vec_val.npy']
 
 for j in range(len(txt)):
